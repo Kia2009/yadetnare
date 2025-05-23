@@ -9,7 +9,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 load_dotenv()
 
-bot_token = os.getenv("token")
+bot_token = os.getenv("7386909616:AAHB66aP-rQxMX-aFS8ebtwCJ86UMOHseRI")
 bot = telebot.TeleBot(bot_token)
 bot_info = bot.get_me()
 bot_username = bot_info.username.lower()  # Always compare lowercase
